@@ -1,0 +1,10 @@
+local:
+  network: "http://localhost:8545"
+  deployedAddress: "0x6F755946fbF08495f3D5c9309Bc4d15A5f7Ae5f3"
+  chainid: 1337
+
+avaTestnet:
+  network: "wss://api.avax-test.network/ext/bc/C/ws"
+  deployedAddress: "0xdC4491Dca714E27dE9A245d5c02Ad7b5F2d6c5c7"
+  chainid: "43113"
+
