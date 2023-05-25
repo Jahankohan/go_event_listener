@@ -13,8 +13,6 @@ import (
 
 type EventHandler struct {}
 
-var CollectionCreatedEvents []model.CollectionCreatedEvent
-var TokenMintedEvents []model.TokenMintedEvent
 
 func (eh EventHandler) GetAllEvents(c *gin.Context) {
 	variables := utils.LoadConfig()
